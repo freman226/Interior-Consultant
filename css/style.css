@@ -1,0 +1,179 @@
+body{
+    font-family: 'Lora', serif;
+    color: white;
+    background-color: #181719;
+    padding: 5px;
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+    padding-top: 10px;
+}
+  
+.interior{
+    border: 1px solid #fff;
+    font-size: smaller;
+    width: fit-content;
+}
+  
+.arrow {
+    margin-left: .5em;
+    cursor: pointer;
+}
+  
+#myLinks {
+    display: none;
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50%;
+    
+}
+
+.topnav #myLinks h1{
+    border-bottom: 1px solid white;
+    padding-bottom: 8px;
+}
+  
+.topnav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+  
+.topnav a.icon {
+    
+    display:inline;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#burger {
+    position: absolute;
+    visibility: visible;
+}
+#x-icon {
+    visibility: hidden;
+}
+
+.description{
+    margin-bottom: 40px;
+}
+.description h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.description p{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+    width: 70%;
+  
+}
+
+.description a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.img-container img{
+    width: 100%;
+
+}
+
+.designer {
+    position: relative;
+    width: 260px;
+    background-color:#181719;
+    padding: 10px 20px;
+    bottom: 50px;
+    left: 40px;
+}
+.designer img{
+    width: 45px;
+    border-radius: 50%;
+    
+}
+.designer div{
+    position: absolute;
+    display: inline-block;
+    font-size: 0.7rem;
+    padding-left: 10px;    
+    padding-top: 5px;
+}
+.designer div h3, p{
+    margin: 0;
+    margin-top:5px;
+    font-family: 'Montserrat', sans-serif;
+}
+.designer div p {
+    color: #828282;
+}
+
+
+.designer h1{
+    width: 60%;
+    font-size: medium;
+}
+
+footer{
+    text-align: center;
+    font-size: small;
+}
+footer a{
+    color: white;
+}
+
+/*Desktop size*/
+
+@media (min-width: 1024px) {
+    body{
+        padding: 3% 5% 0 5%;
+
+    }
+    #myLinks{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        justify-content: right;
+        position: relative;
+        bottom: 50px;
+        
+       
+    }
+    #myLinks a{
+        margin-left: 5%;
+
+    }
+    #myLinks h1{
+        font-size: 1.1rem;
+    }
+    #burger {
+        visibility: hidden;
+    }
+    .middle {
+        display: flex;
+        justify-content:space-evenly;
+        margin-top: 5%;
+    }
+    
+    .description{
+        padding-top: 6%;
+        margin-bottom: 0;
+    }
+    .designer-container{
+   
+        height: min-content;
+    }
+    
+    .designer{
+        width: 50%;
+        left:40%;
+    }
+    
+}
