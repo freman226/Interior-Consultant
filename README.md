@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/NcwJk24VHJ47G1wf4dAC">
+    <a href="https://{your-url-to-the-solution}">
       Solution
     </a>
     <span> | </span>
@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot]https://github.com/freman226/Interior-Consultant/blob/main/images/Screenshot.png
+![screenshot](https://github.com/freman226/Interior-Consultant/blob/main/images/Screenshot.png)
 
 
 ## Features
